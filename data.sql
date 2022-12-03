@@ -23,7 +23,7 @@ CREATE TABLE Consultation(
     Date_Cons  DATE,
     Heure_Cons TIME,
     Type_Cons  TEXT
-)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE Suivi(
     Mat_Pat VARCHAR(10) NOT NULL ,
